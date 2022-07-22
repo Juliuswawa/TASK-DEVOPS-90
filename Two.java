@@ -5,7 +5,7 @@ region = "us-east-1"
 }
 
 resource "aws_instance" "server" {
-  ami           = "ami-052efd3df9dad4825"
+  ami           = "ami-098e42ae54c764c35"
   instance_type = "t2.micro"
   count = 1
   tags = {
