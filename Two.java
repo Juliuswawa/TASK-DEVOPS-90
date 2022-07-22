@@ -12,3 +12,5 @@ resource "aws_instance" "server" {
     Name = "ubuntu"
   }
 }
+
+ poll change
